@@ -1,0 +1,113 @@
+body{
+    background-color: #e3e3e3;
+    padding: 0;
+    margin: 0;
+}
+.contenedor{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+    width: 100%;
+    height: auto;
+}
+
+.seccionRan{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+    height: 230px
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    width: 650px;
+    height: 210px;
+    margin: 0;
+    padding: 0;
+}
+
+.listas{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+    height: auto;
+}
+.listaOriginal{
+    width: 200px;
+    height: 610px;
+    border: 1px solid black;
+    border-radius: 2px;
+    padding: 0;
+    margin: 0 10px 0 0;
+}
+.listaComisiones{
+    margin: 0 10px;
+    padding: 0;
+}
+.listaNueva{
+    width: 200px;
+    height: 610px;
+    border: 1px solid black;
+    border-radius: 2px;
+}
+.listaComisionesExpu{
+    margin: 0 10px;
+    padding: 0;
+}
+li{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    padding: 0; 
+    align-items: start;
+    font-size: 20px;
+}
+/* li:hover{
+    background-color: rgb(93, 218, 100);
+    cursor: pointer;
+} */
+.btn-borrar{
+   
+    padding: 0; 
+    justify-content:right;
+    font-size: 20px;
+}
+.btn-borrar:hover{
+    background-color: rgb(93, 218, 100);
+    cursor: pointer;
+}
+#tituloGrupos{
+    font-size: 45px;
+    font-family: sans-serif;
+    padding: 5px 0;
+    margin: 0;
+    /* border: 1px solid black; */
+    border-radius: 2px;
+}
+#tituloRan{
+    font-size: 50px;
+    font-family: sans-serif;
+    background-color: greenyellow;
+    padding: 5px 0;
+    margin: 0;
+}
+#btnRan{
+    width: 300px;
+    height: 60px;
+    font-family: sans-serif;
+    font-size: 25px;
+    border-radius: 5px;
+    margin-top: 5px;
+}
+#btnRan:hover{
+    background-color: rgb(231, 10, 10);
+    cursor: pointer;
+    
+}
